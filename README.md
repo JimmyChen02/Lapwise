@@ -4,28 +4,47 @@ A locally runnable student laptop recommender built with React, TypeScript, Vite
 
 The interface follows the [Lapwise Figma mockup](https://www.figma.com/design/gAsARb52B1uEQn0tBy87WI/4125-Laptop-Recommender?node-id=2-2): forest-green controls, warm off-white surfaces, a filter sidebar, laptop cards, a three-step student survey, and price tracking. Laptop names, specifications, prices, and rankings come from the supplied API and CSVs, rather than the mockup's illustrative products.
 
-## Run locally (macOS / Linux)
+## Quick start (macOS / Linux)
 
-Prerequisites: Python 3.12+ and Node.js 22+ with npm.
+Install **Git**, **Python 3.12 or newer**, and **Node.js 22 or newer** (including npm). Open a terminal in any folder where you want to keep the project, then run:
 
 ```bash
-cd /Users/jimmy2/Downloads/Lapwise
-./start.sh
+git clone --branch codex/local-mvp https://github.com/JimmyChen02/Lapwise.git
+cd Lapwise
+bash start.sh
 ```
 
-The script creates an isolated `.venv`, installs the pinned Python and JavaScript dependencies, builds the frontend, then serves both the application and API from one process.
+The MVP currently lives on the `codex/local-mvp` branch. HTTPS cloning does not require an SSH key; GitHub access is still required if the repository is private.
 
-- App: http://127.0.0.1:8000
-- Interactive API docs: http://127.0.0.1:8000/docs
-- Health: http://127.0.0.1:8000/health
+Already cloned the project? Open its `Lapwise` folder in VS Code, choose **Terminal → New Terminal**, and run `bash start.sh`. All commands below are run from the repository root—the folder containing `start.sh`.
 
-First setup requires internet access for dependencies. After setup and build, restart offline with:
+The startup script creates a local Python environment, installs dependencies, builds the frontend, and starts both the app and API. The first setup requires internet access and may take a few minutes.
+
+When the terminal says **Uvicorn running**, open:
+
+- [Lapwise app](http://127.0.0.1:8000)
+- [Interactive API docs](http://127.0.0.1:8000/docs)
+- [Health check](http://127.0.0.1:8000/health)
+
+Keep the terminal open while using the app. Press **Ctrl+C** to stop it. No API keys, database server, or cloud deployment are needed.
+
+### Start again without reinstalling
+
+After the first successful setup, run this from the `Lapwise` folder:
 
 ```bash
 .venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
-Stop with `Ctrl+C`. If port 8000 is in use, run `PORT=8001 ./start.sh`. Servers bind only to localhost. No accounts, API keys, database server, or cloud hosting are required.
+This uses the existing build and works offline. If you change frontend code, run `npm --prefix frontend run build` and refresh the browser, or use the development workflow below.
+
+### Troubleshooting
+
+- **Port 8000 already in use:** stop the other server, or run `PORT=8001 bash start.sh` and open http://127.0.0.1:8001.
+- **Python or npm command not found:** install the prerequisites, reopen your terminal, and check `python3 --version` and `node --version`.
+- **Cannot find start.sh:** change into the cloned `Lapwise` folder first, or open that folder in VS Code and create a new terminal.
+- **Browser cannot connect:** wait for startup to finish and leave the server terminal running. Check it for errors.
+- **Moved the project after setup:** recreate its `.venv` with `python3 -m venv --clear .venv`, then run `bash start.sh` to reinstall dependencies. Virtual environments contain location-specific paths.
 
 ## MVP features
 
@@ -41,7 +60,7 @@ Stop with `Ctrl+C`. If port 8000 is in use, run `PORT=8001 ./start.sh`. Servers 
 
 ## Development
 
-Install dependencies using `./start.sh` once, then stop it. Run two terminals from the repository root:
+Install dependencies using `bash start.sh` once, then stop it. Run two terminals from the repository root:
 
 ```bash
 # Terminal 1: backend
@@ -85,7 +104,7 @@ The original API documentation, request example, and scoring explanation are in 
 - Saved laptops, preferences, and targets use local storage. No sign-in, cloud synchronization, analytics, or telemetry is included. If browser storage is unavailable, actions still work for the current session.
 - Laptop pictures are original SVG illustrations, not verified product photography.
 - Software profiles map to the existing API usage categories. They do not certify software compatibility or add GPU/battery/weight data absent from the source catalog.
-- Changes to CSVs require a backend restart because the catalog is cached in memory. The original API project outside this clone is untouched.
+- Changes to CSVs require a backend restart because the catalog is cached in memory.
 - `requirements.txt` preserves the supplied dependency ranges. `requirements.lock` pins the environment used to verify this MVP; `frontend/package-lock.json` pins frontend dependencies. The lock is intended for the macOS/Linux workflow above.
 
 ## Layout
@@ -101,7 +120,7 @@ frontend/src/
   style.css           Responsive UI styles
 frontend/dist/        Generated production build (ignored)
 data/                 Supplied catalog and price history
-tests/test_api.py    API regression and integration tests
+tests/test_api.py     API regression and integration tests
 docs/API.md           Original API design and examples
 start.sh              One-command setup, build, and local server
 ```

@@ -726,7 +726,7 @@ nav button.current:after {
   min-width: 0;
   padding: 3px 3px 0;
 }
-.price-chart > svg {
+.chart-plot > svg {
   width: 100%;
   display: block;
   margin-top: 14px;
@@ -2368,3 +2368,12 @@ nav button,
     display: inline-flex;
   }
 }
+
+.chart-plot { position: relative; }
+.chart-plot > svg { width: 100%; display: block; }
+.chart-tooltip { position: absolute; top: 0; transform: translateX(-50%); pointer-events: none; background: #264f3e; color: white; padding: 9px 13px; border-radius: 7px; box-shadow: 0 4px 16px #0002; white-space: nowrap; z-index: 2; }
+.chart-tooltip strong { display: block; font-size: 14px; }
+.chart-tooltip span { display: block; font-size: 12px; margin-top: 3px; color: #e3edda; }
+
+.workspace-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+@media (max-width: 740px) { .workspace-actions > button { flex: 1; font-size: .8rem; } }

@@ -223,6 +223,28 @@ export default function App() {
     setFilterOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
+  const [surveyVersion, setSurveyVersion] = useState(0);
+  function resetWebsite() {
+    setPreferences(null);
+    setResult(null);
+    setFilters(initialFilters);
+    setSearch("");
+    setSort("match");
+    setCategory("all");
+    setCompare([]);
+    setComparison(false);
+    setDetail(null);
+    setTargetLaptop(null);
+    setTrackerId("");
+    setError("");
+    setNotice("");
+    navigate("discover");
+  }
+  function restartSurvey() {
+    resetWebsite();
+    setSurveyVersion(version => version + 1);
+    navigate("survey");
+  }
   function toggleSave(id: string) {
     setSaved((old) =>
       old.includes(id) ? old.filter((s) => s !== id) : [...old, id],
@@ -344,8 +366,13 @@ export default function App() {
         </div>
       </header>
       <main id="main" className={page === "survey" ? "survey-main" : "main"}>
+        <div className="workspace-actions" aria-label="Start over">
+          <button className="button outline" onClick={resetWebsite} disabled={busy}>Reset to original</button>
+          <button className="button primary" onClick={restartSurvey} disabled={busy}>Take survey again</button>
+        </div>
         {page === "survey" ? (
           <Survey
+            key={surveyVersion}
             initial={preferences}
             onSubmit={submit}
             busy={busy}
@@ -762,20 +789,6 @@ export default function App() {
                       </div>
                       <span className="fine-print">Recorded prices · USD</span>
                     </div>
-                    {result && page === "discover" && (
-                      <button
-                        className="text-button browse-catalog"
-                        onClick={() => {
-                          setPreferences(null);
-                          setResult(null);
-                          setFilters(initialFilters);
-                          setSearch("");
-                          setCategory("all");
-                        }}
-                      >
-                        Clear preferences and browse all laptops
-                      </button>
-                    )}
                     {result?.status === "partial" && page === "discover" && (
                       <p className="info-banner">
                         <Info size={17} />

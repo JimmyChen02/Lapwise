@@ -195,6 +195,9 @@ export function PriceChart({
       active = false;
     };
   }, [id, retry]);
+  const [hovered, setHovered] = useState<number | null>(null);
+  const chartHint = useId();
+  useEffect(() => setHovered(null), [id, range]);
   const latest = points.at(-1);
   const cutoff = latest ? Date.parse(latest.date) - range * 86400000 : 0;
   const visible = points.filter(
@@ -255,7 +258,29 @@ export function PriceChart({
         </div>
       ) : (
         <>
+          <div className="chart-plot">
           <svg
+            tabIndex={0}
+            aria-describedby={chartHint}
+            onPointerMove={(event) => {
+              const matrix = event.currentTarget.getScreenCTM();
+              if (!matrix) return;
+              const position = new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse());
+              if (position.x < 64 || position.x > 710 || position.y < 20 || position.y > 180) { setHovered(null); return; }
+              const nearest = coords.reduce((best, point, index) => Math.abs(point[0] - position.x) < Math.abs(coords[best][0] - position.x) ? index : best, 0);
+              setHovered(nearest);
+            }}
+            onPointerLeave={() => setHovered(null)}
+            onFocus={() => setHovered(visible.length - 1)}
+            onBlur={() => setHovered(null)}
+            onKeyDown={(event) => {
+              if (!["ArrowLeft", "ArrowRight", "Home", "End", "Escape"].includes(event.key)) return;
+              event.preventDefault();
+              if (event.key === "Escape") setHovered(null);
+              else if (event.key === "Home") setHovered(0);
+              else if (event.key === "End") setHovered(visible.length - 1);
+              else setHovered(old => Math.max(0, Math.min(visible.length - 1, (old ?? visible.length - 1) + (event.key === "ArrowLeft" ? -1 : 1))));
+            }}
             viewBox="0 0 740 220"
             role="img"
             aria-label={`${id} recorded prices from ${dateLabel(visible[0].date)} to ${dateLabel(visible.at(-1)!.date)}, ranging from ${money(min)} to ${money(max)}`}
@@ -292,6 +317,7 @@ export function PriceChart({
                 </title>
               </circle>
             ))}
+            {hovered !== null && coords[hovered] && <g pointerEvents="none"><line x1={coords[hovered][0]} x2={coords[hovered][0]} y1="20" y2="180" stroke="#315a43" strokeDasharray="4 4"/><circle cx={coords[hovered][0]} cy={coords[hovered][1]} r="6" fill="#264f3e" stroke="white" strokeWidth="2"/></g>}
             <text x="64" y="210" fontSize="12" fill="#727c72">
               {dateLabel(visible[0].date)}
             </text>
@@ -299,6 +325,9 @@ export function PriceChart({
               {dateLabel(visible.at(-1)!.date)}
             </text>
           </svg>
+          {hovered !== null && visible[hovered] && <div className="chart-tooltip" role="status" style={{left: `${Math.max(22, Math.min(78, coords[hovered][0] / 740 * 100))}%`}}><strong>{money(visible[hovered].price_usd)}</strong><span>{dateLabel(visible[hovered].date)}</span></div>}
+          </div>
+          <p id={chartHint} className="fine-print">Hover or tap the chart for prices. Use left/right arrow keys when focused.</p>
           <p className="fine-print">
             {visible.length} observations · Period ends at the latest recorded
             date, {dateLabel(latest!.date)}.
