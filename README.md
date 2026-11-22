@@ -14,7 +14,7 @@ cd Lapwise
 bash start.sh
 ```
 
-The MVP currently lives on the `codex/local-mvp` branch. HTTPS cloning does not require an SSH key; GitHub access is still required if the repository is private.
+The MVP currently lives on the `local-mvp` branch. HTTPS cloning does not require an SSH key; GitHub access is still required if the repository is private.
 
 Already cloned the project? Open its `Lapwise` folder in VS Code, choose **Terminal → New Terminal**, and run `bash start.sh`. All commands below are run from the repository root—the folder containing `start.sh`.
 
