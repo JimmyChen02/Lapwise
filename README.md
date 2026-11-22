@@ -9,12 +9,12 @@ The interface follows the [Lapwise Figma mockup](https://www.figma.com/design/gA
 Install **Git**, **Python 3.12 or newer**, and **Node.js 22 or newer** (including npm). Open a terminal in any folder where you want to keep the project, then run:
 
 ```bash
-git clone --branch codex/local-mvp https://github.com/JimmyChen02/Lapwise.git
+git clone https://github.com/JimmyChen02/Lapwise.git
 cd Lapwise
 bash start.sh
 ```
 
-The MVP currently lives on the `local-mvp` branch. HTTPS cloning does not require an SSH key; GitHub access is still required if the repository is private.
+HTTPS cloning does not require an SSH key; GitHub access is still required if the repository is private.
 
 Already cloned the project? Open its `Lapwise` folder in VS Code, choose **Terminal → New Terminal**, and run `bash start.sh`. All commands below are run from the repository root—the folder containing `start.sh`.
 
