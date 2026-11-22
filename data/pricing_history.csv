@@ -1,0 +1,550 @@
+laptop_id,date,price_usd
+MacBook Air M5,2026-03-04,1099
+MacBook Air M5,2026-03-11,1049.99
+MacBook Air M5,2026-03-12,1049
+MacBook Air M5,2026-03-14,1049
+MacBook Air M5,2026-03-30,1049
+MacBook Air M5,2026-04-06,949
+MacBook Air M5,2026-04-11,949
+MacBook Air M5,2026-04-18,999
+MacBook Air M5,2026-04-23,998.18
+MacBook Air M5,2026-05-02,949.99
+MacBook Air M5,2026-05-09,949
+MacBook Air M5,2026-05-25,899.99
+MacBook Air M5,2026-05-26,899.99
+MacBook Air M5,2026-05-29,899.99
+MacBook Air M5,2026-06-04,949
+MacBook Air M5,2026-06-14,949.99
+MacBook Air M5,2026-06-18,949.99
+MacBook Air M5,2026-06-23,949
+MacBook Air M5,2026-06-26,996
+MacBook Air M5,2026-06-26,1299
+MacBook Air M5,2026-07-01,1297
+MacBook Air M5,2026-07-02,1297
+MacBook Air M5,2026-07-04,1259
+MacBook Air M5,2026-07-13,1198.25
+MacBook Air M5,2026-07-21,1199
+MacBook Air M5,2026-07-23,1259.99
+MacBook Air M5,2026-07-26,1259.99
+MacBook Air M5,2026-07-27,1259.99
+MacBook Air M5,2026-07-29,1259.99
+MacBook Air M5,2026-07-30,1259.99
+MacBook Air M5,2026-07-31,1259.99
+MacBook Air M5,2026-07-31,1259.99
+MacBook Air M5,2026-08-02,1297
+MacBook Air M5,2026-08-03,1297
+MacBook Air M5,2026-08-04,1254.99
+MacBook Air M5,2026-08-06,1199
+MacBook Air M5,2026-08-07,1199
+MacBook Air M5,2026-08-13,1297
+MacBook Air M5,2026-08-15,1297
+MacBook Air M5,2026-08-18,1297
+MacBook Air M5,2026-08-20,1297
+MacBook Air M5,2026-08-22,1297
+MacBook Air M5,2026-08-27,1297
+MacBook Air M5,2026-09-05,1297
+MacBook Air M5,2026-09-07,1297
+MacBook Air M5,2026-09-08,1297
+MacBook Air M5,2026-09-12,1299
+MacBook Air M5,2026-09-15,1211.94
+MacBook Air M5,2026-09-19,1249
+MacBook Air M5,2026-09-22,1236.69
+MacBook Air M5,2026-09-27,1199
+Dell XPS 13,2025-08-01,1599.99
+Dell XPS 13,2025-08-05,1699.99
+Dell XPS 13,2025-08-06,1599.99
+Dell XPS 13,2025-08-19,1599
+Dell XPS 13,2025-08-22,1595
+Dell XPS 13,2025-08-28,1599.99
+Dell XPS 13,2025-09-02,1679
+Dell XPS 13,2025-09-09,1599.99
+Dell XPS 13,2025-09-11,1679
+Dell XPS 13,2025-09-11,1599.99
+Dell XPS 13,2025-09-25,1669.99
+Dell XPS 13,2025-09-26,1679
+Dell XPS 13,2025-10-07,1299.99
+Dell XPS 13,2025-10-08,1299.99
+Dell XPS 13,2025-10-10,1299.99
+Dell XPS 13,2025-10-13,1299.99
+Dell XPS 13,2025-10-14,1698
+Dell XPS 13,2025-10-14,1299.99
+Dell XPS 13,2025-10-15,1299.99
+Dell XPS 13,2025-10-20,1199.99
+Dell XPS 13,2025-10-20,1199.99
+Dell XPS 13,2025-10-21,1199.99
+Dell XPS 13,2025-10-22,1199.99
+Dell XPS 13,2025-10-26,1199.99
+Dell XPS 13,2025-10-29,1598
+Dell XPS 13,2025-10-29,1199.99
+Dell XPS 13,2025-10-30,1199.99
+Dell XPS 13,2025-10-31,1199.99
+Dell XPS 13,2025-11-05,1199.99
+Dell XPS 13,2025-11-06,1598
+Dell XPS 13,2025-11-06,1199.99
+Dell XPS 13,2025-11-08,1199.99
+Dell XPS 13,2025-11-08,1199.99
+Dell XPS 13,2025-11-13,1798.99
+Dell XPS 13,2025-11-18,1199.99
+Dell XPS 13,2025-11-21,1119.99
+Dell XPS 13,2025-11-23,1399.99
+Dell XPS 13,2025-11-23,1119.99
+Dell XPS 13,2025-11-25,1399.99
+Dell XPS 13,2025-12-03,1099.99
+Dell XPS 13,2025-12-13,1099.99
+Dell XPS 13,2025-12-16,1099.99
+Dell XPS 13,2025-12-19,1199.99
+Dell XPS 13,2025-12-22,1199.99
+Dell XPS 13,2025-12-24,1139.99
+Dell XPS 13,2025-12-25,1139.99
+Dell XPS 13,2025-12-28,1139.99
+Dell XPS 13,2025-12-30,1139.99
+Dell XPS 13,2026-01-03,1139.99
+Dell XPS 13,2026-01-06,1079.99
+Dell XPS 13,2026-01-09,1079.99
+Dell XPS 13,2026-01-12,1079.99
+Dell XPS 13,2026-01-14,1079.99
+Dell XPS 13,2026-01-16,1079.99
+Dell XPS 13,2026-01-18,1079.99
+Dell XPS 13,2026-01-22,1199.99
+Dell XPS 13,2026-01-25,1199.99
+Dell XPS 13,2026-01-26,1199.99
+Dell XPS 13,2026-01-29,1199.99
+Dell XPS 13,2026-02-01,1199.99
+Dell XPS 13,2026-02-04,1199.99
+Dell XPS 13,2026-02-08,1199.99
+Dell XPS 13,2026-02-13,1199.99
+Dell XPS 13,2026-02-19,1199.99
+Dell XPS 13,2026-02-25,1199.99
+Dell XPS 13,2026-03-04,1199.99
+Dell XPS 13,2026-03-14,1199.99
+Dell XPS 13,2026-03-20,1199.99
+Dell XPS 13,2026-08-18,849.99
+Dell XPS 13,2026-08-20,899.99
+Dell XPS 13,2026-08-23,899.99
+Dell XPS 13,2026-08-27,899.99
+Dell XPS 13,2026-08-31,899.99
+Dell XPS 13,2026-09-05,899.99
+Dell XPS 13,2026-09-07,899.99
+Dell XPS 13,2026-09-08,899.99
+Dell XPS 13,2026-09-14,799.99
+Dell XPS 13,2026-09-19,849.99
+Dell XPS 13,2026-09-25,849.99
+MacBook Neo,2026-03-07,738
+MacBook Neo,2026-03-08,738
+MacBook Neo,2026-03-09,738
+MacBook Neo,2026-03-12,738
+MacBook Neo,2026-03-21,738
+MacBook Neo,2026-03-25,738
+MacBook Neo,2026-03-26,738
+MacBook Neo,2026-03-31,738
+MacBook Neo,2026-04-05,738
+MacBook Neo,2026-04-10,738
+MacBook Neo,2026-04-21,738
+MacBook Neo,2026-04-26,728.99
+MacBook Neo,2026-04-30,728.99
+MacBook Neo,2026-05-05,728.99
+MacBook Neo,2026-05-10,728
+MacBook Neo,2026-05-14,728
+MacBook Neo,2026-05-23,728
+MacBook Neo,2026-06-04,728
+MacBook Neo,2026-06-18,728.99
+MacBook Neo,2026-06-24,728.99
+MacBook Neo,2026-07-04,838
+MacBook Neo,2026-07-13,838
+MacBook Neo,2026-07-18,854
+MacBook Neo,2026-07-22,854
+MacBook Neo,2026-07-23,854
+MacBook Neo,2026-07-24,854
+MacBook Neo,2026-07-25,854
+MacBook Neo,2026-07-26,854
+MacBook Neo,2026-07-27,854
+MacBook Neo,2026-07-28,851
+MacBook Neo,2026-07-29,851
+MacBook Neo,2026-07-30,851
+MacBook Neo,2026-07-31,851
+MacBook Neo,2026-08-01,851
+MacBook Neo,2026-08-02,851
+MacBook Neo,2026-08-03,851
+MacBook Neo,2026-08-04,851
+MacBook Neo,2026-08-05,851
+MacBook Neo,2026-08-07,851
+MacBook Neo,2026-08-08,851
+MacBook Neo,2026-08-12,844
+MacBook Neo,2026-08-14,844
+MacBook Neo,2026-08-19,844
+MacBook Neo,2026-08-20,844
+MacBook Neo,2026-08-22,844
+MacBook Neo,2026-08-28,844
+MacBook Neo,2026-09-02,844
+MacBook Neo,2026-09-03,844
+MacBook Neo,2026-09-03,844
+MacBook Neo,2026-09-05,844
+MacBook Neo,2026-09-06,844
+MacBook Neo,2026-09-15,844
+MacBook Neo,2026-09-20,844
+MacBook Neo,2026-09-22,844
+MacBook Neo,2026-09-24,844
+MacBook Neo,2026-09-30,844
+MacBook Pro M5,2026-03-09,2348
+MacBook Pro M5,2026-03-23,2348
+MacBook Pro M5,2026-03-28,2348
+MacBook Pro M5,2026-03-31,2248
+MacBook Pro M5,2026-04-05,2248
+MacBook Pro M5,2026-04-09,2348
+MacBook Pro M5,2026-04-14,2278
+MacBook Pro M5,2026-04-16,2278
+MacBook Pro M5,2026-04-23,2378
+MacBook Pro M5,2026-04-29,2348
+MacBook Pro M5,2026-05-04,2181.5
+MacBook Pro M5,2026-05-08,2169
+MacBook Pro M5,2026-05-11,2128
+MacBook Pro M5,2026-07-21,2554
+MacBook Pro M5,2026-07-23,2554
+MacBook Pro M5,2026-08-05,2660.43
+MacBook Pro M5,2026-08-23,2663
+MacBook Pro M5,2026-09-04,2694
+MacBook Pro M5,2026-09-06,2678.37
+MacBook Pro M5,2026-09-07,2677
+MacBook Pro M5,2026-09-09,2553.99
+MacBook Pro M5,2026-09-11,2552.5
+MacBook Pro M5,2026-09-14,2552.5
+MacBook Pro M5,2026-09-16,2554
+MacBook Pro M5,2026-09-16,2554
+MacBook Pro M5,2026-09-21,4139.99
+MacBook Pro M5,2026-09-25,2677
+Lenovo Yoga 7i,2026-01-23,1245
+Lenovo Yoga 7i,2026-01-23,1245
+Lenovo Yoga 7i,2026-01-24,1245
+Lenovo Yoga 7i,2026-01-25,1245
+Lenovo Yoga 7i,2026-01-28,1245
+Lenovo Yoga 7i,2026-02-02,1245
+Lenovo Yoga 7i,2026-02-05,1245
+Lenovo Yoga 7i,2026-02-09,1245
+Lenovo Yoga 7i,2026-02-14,1245
+Lenovo Yoga 7i,2026-02-24,1245
+Lenovo Yoga 7i,2026-03-06,1245
+Lenovo Yoga 7i,2026-03-25,1245
+Lenovo Yoga 7i,2026-03-29,1245
+Lenovo Yoga 7i,2026-04-04,1245
+Lenovo Yoga 7i,2026-05-01,1245
+Lenovo Yoga 7i,2026-05-22,1095
+Lenovo Yoga 7i,2026-06-04,1095
+Lenovo Yoga 7i,2026-06-16,1095
+Lenovo Yoga 7i,2026-06-23,1095
+Lenovo Yoga 7i,2026-07-16,1095
+Lenovo Yoga 7i,2026-07-23,1095
+Lenovo Yoga 7i,2026-07-23,1095
+Lenovo Yoga 7i,2026-07-27,1095
+Lenovo Yoga 7i,2026-07-29,1095
+Lenovo Yoga 7i,2026-07-30,1095
+Lenovo Yoga 7i,2026-08-01,1095
+Lenovo Yoga 7i,2026-08-03,1095
+Lenovo Yoga 7i,2026-08-05,1095
+Lenovo Yoga 7i,2026-08-07,1089
+Lenovo Yoga 7i,2026-08-10,1089.53
+Lenovo Yoga 7i,2026-08-13,1084.08
+Lenovo Yoga 7i,2026-08-15,1084.08
+Lenovo Yoga 7i,2026-08-18,1084.08
+Lenovo Yoga 7i,2026-08-21,1299
+Lenovo Yoga 7i,2026-08-22,1299
+Lenovo Yoga 7i,2026-08-22,1299
+Lenovo Yoga 7i,2026-09-04,1095
+Lenovo Yoga 7i,2026-09-06,1095
+Lenovo Yoga 7i,2026-09-08,1095
+Lenovo Yoga 7i,2026-09-09,1095
+Lenovo Yoga 7i,2026-09-12,1095
+Lenovo Yoga 7i,2026-09-18,1145
+Lenovo Yoga 7i,2026-09-27,1145
+Lenovo Yoga 7i,2026-10-02,1145
+ASUS Chromebook Plus CX34,2025-07-08,239.99
+ASUS Chromebook Plus CX34,2025-07-19,239
+ASUS Chromebook Plus CX34,2025-08-04,239.99
+ASUS Chromebook Plus CX34,2025-08-18,239
+ASUS Chromebook Plus CX34,2025-08-24,239.99
+ASUS Chromebook Plus CX34,2025-08-27,239
+ASUS Chromebook Plus CX34,2025-09-20,215.99
+ASUS Chromebook Plus CX34,2025-09-25,212.99
+ASUS Chromebook Plus CX34,2025-09-26,215.99
+ASUS Chromebook Plus CX34,2025-09-28,219.99
+ASUS Chromebook Plus CX34,2025-09-29,229.99
+ASUS Chromebook Plus CX34,2025-09-30,232.99
+ASUS Chromebook Plus CX34,2025-10-01,235.99
+ASUS Chromebook Plus CX34,2025-10-04,237.99
+ASUS Chromebook Plus CX34,2025-10-06,234.99
+ASUS Chromebook Plus CX34,2025-10-07,225.99
+ASUS Chromebook Plus CX34,2025-10-10,234.99
+ASUS Chromebook Plus CX34,2025-10-10,234.98
+ASUS Chromebook Plus CX34,2025-10-19,215.99
+ASUS Chromebook Plus CX34,2025-10-25,199.99
+ASUS Chromebook Plus CX34,2025-10-27,234.98
+ASUS Chromebook Plus CX34,2025-10-28,199.99
+ASUS Chromebook Plus CX34,2025-10-28,234.98
+ASUS Chromebook Plus CX34,2025-11-04,237.98
+ASUS Chromebook Plus CX34,2025-11-04,234.98
+ASUS Chromebook Plus CX34,2025-11-18,229.99
+ASUS Chromebook Plus CX34,2025-11-26,234.98
+ASUS Chromebook Plus CX34,2025-11-27,236.99
+ASUS Chromebook Plus CX34,2025-12-02,259.99
+ASUS Chromebook Plus CX34,2025-12-04,229.99
+ASUS Chromebook Plus CX34,2025-12-07,239.99
+ASUS Chromebook Plus CX34,2025-12-10,236.99
+ASUS Chromebook Plus CX34,2025-12-11,236.99
+ASUS Chromebook Plus CX34,2025-12-13,236.99
+ASUS Chromebook Plus CX34,2025-12-16,236.99
+ASUS Chromebook Plus CX34,2025-12-19,236.99
+ASUS Chromebook Plus CX34,2025-12-22,236.99
+ASUS Chromebook Plus CX34,2025-12-25,236.99
+ASUS Chromebook Plus CX34,2025-12-30,236.99
+ASUS Chromebook Plus CX34,2026-01-02,236.99
+ASUS Chromebook Plus CX34,2026-01-03,236.99
+ASUS Chromebook Plus CX34,2026-01-06,236.99
+ASUS Chromebook Plus CX34,2026-01-07,236.99
+ASUS Chromebook Plus CX34,2026-01-09,236.99
+ASUS Chromebook Plus CX34,2026-01-10,236.99
+ASUS Chromebook Plus CX34,2026-01-11,236.99
+ASUS Chromebook Plus CX34,2026-01-13,236.99
+ASUS Chromebook Plus CX34,2026-01-14,236.99
+ASUS Chromebook Plus CX34,2026-01-16,236.99
+ASUS Chromebook Plus CX34,2026-01-17,236.99
+ASUS Chromebook Plus CX34,2026-01-18,236.99
+ASUS Chromebook Plus CX34,2026-01-20,236.99
+ASUS Chromebook Plus CX34,2026-01-22,236.99
+ASUS Chromebook Plus CX34,2026-01-23,236.99
+ASUS Chromebook Plus CX34,2026-01-24,236.99
+ASUS Chromebook Plus CX34,2026-01-26,236.99
+ASUS Chromebook Plus CX34,2026-01-28,236.99
+ASUS Chromebook Plus CX34,2026-01-29,236.99
+ASUS Chromebook Plus CX34,2026-01-31,236.99
+ASUS Chromebook Plus CX34,2026-02-03,236.99
+ASUS Chromebook Plus CX34,2026-02-05,236.99
+ASUS Chromebook Plus CX34,2026-02-07,236.99
+ASUS Chromebook Plus CX34,2026-02-11,236.99
+ASUS Chromebook Plus CX34,2026-02-15,236.99
+ASUS Chromebook Plus CX34,2026-03-03,236.99
+ASUS Chromebook Plus CX34,2026-03-13,259.99
+ASUS Chromebook Plus CX34,2026-03-28,259.99
+ASUS Chromebook Plus CX34,2026-04-11,289.99
+ASUS Chromebook Plus CX34,2026-04-15,289.99
+ASUS Chromebook Plus CX34,2026-04-23,259.99
+ASUS Chromebook Plus CX34,2026-05-17,259.99
+ASUS Chromebook Plus CX34,2026-05-27,259.99
+ASUS Chromebook Plus CX34,2026-06-09,279.99
+ASUS Chromebook Plus CX34,2026-06-19,284.99
+ASUS Chromebook Plus CX34,2026-06-24,299.99
+ASUS Chromebook Plus CX34,2026-07-03,289.99
+ASUS Chromebook Plus CX34,2026-07-18,349.99
+ASUS Chromebook Plus CX34,2026-07-22,359.99
+ASUS Chromebook Plus CX34,2026-07-24,369.99
+ASUS Chromebook Plus CX34,2026-07-26,369.99
+ASUS Chromebook Plus CX34,2026-07-27,369.99
+ASUS Chromebook Plus CX34,2026-07-28,369.99
+ASUS Chromebook Plus CX34,2026-07-29,369.99
+ASUS Chromebook Plus CX34,2026-07-31,369.99
+ASUS Chromebook Plus CX34,2026-08-01,369.99
+ASUS Chromebook Plus CX34,2026-08-02,369.99
+ASUS Chromebook Plus CX34,2026-08-03,369.99
+ASUS Chromebook Plus CX34,2026-08-05,369.99
+ASUS Chromebook Plus CX34,2026-08-06,369.99
+ASUS Chromebook Plus CX34,2026-08-15,369.99
+ASUS Chromebook Plus CX34,2026-08-24,369.99
+ASUS Chromebook Plus CX34,2026-09-06,399.99
+ASUS Chromebook Plus CX34,2026-09-07,399.99
+ASUS Chromebook Plus CX34,2026-09-11,289.99
+ASUS Chromebook Plus CX34,2026-09-14,289.99
+ASUS Chromebook Plus CX34,2026-09-15,399.99
+ASUS Chromebook Plus CX34,2026-09-20,399.99
+ASUS Chromebook Plus CX34,2026-09-24,399.99
+ASUS Chromebook Plus CX34,2026-09-28,399.99
+Acer Aspire Go 16,2026-03-03,649.99
+Acer Aspire Go 16,2026-03-10,649.99
+Acer Aspire Go 16,2026-03-14,649.99
+Acer Aspire Go 16,2026-03-19,648.69
+Acer Aspire Go 16,2026-03-29,648.69
+Acer Aspire Go 16,2026-04-22,648.69
+Acer Aspire Go 16,2026-04-28,639.67
+Acer Aspire Go 16,2026-05-08,579.99
+Acer Aspire Go 16,2026-05-13,633.3
+Acer Aspire Go 16,2026-05-25,633.3
+Acer Aspire Go 16,2026-06-09,627.74
+Acer Aspire Go 16,2026-06-23,579.99
+Acer Aspire Go 16,2026-07-03,619.99
+Acer Aspire Go 16,2026-07-13,619.99
+Acer Aspire Go 16,2026-07-18,619.99
+Acer Aspire Go 16,2026-07-21,619.99
+Acer Aspire Go 16,2026-07-22,619.99
+Acer Aspire Go 16,2026-07-26,619.99
+Acer Aspire Go 16,2026-07-28,619.99
+Acer Aspire Go 16,2026-07-29,619.99
+Acer Aspire Go 16,2026-07-31,619.99
+Acer Aspire Go 16,2026-08-01,619.99
+Acer Aspire Go 16,2026-08-03,619.99
+Acer Aspire Go 16,2026-08-06,619.99
+Acer Aspire Go 16,2026-08-13,619.99
+Acer Aspire Go 16,2026-08-15,619.99
+Acer Aspire Go 16,2026-08-21,619.99
+Acer Aspire Go 16,2026-08-29,619.99
+Acer Aspire Go 16,2026-09-03,619.99
+Acer Aspire Go 16,2026-09-05,619.99
+Acer Aspire Go 16,2026-09-07,619.99
+Acer Aspire Go 16,2026-09-08,619.99
+Acer Aspire Go 16,2026-09-10,619.99
+Acer Aspire Go 16,2026-09-14,619.99
+Acer Aspire Go 16,2026-09-18,619.99
+Apple iPad 11-inch A16 (Pink),2025-03-04,349
+Apple iPad 11-inch A16 (Pink),2025-03-06,329
+Apple iPad 11-inch A16 (Pink),2025-03-11,349
+Apple iPad 11-inch A16 (Pink),2025-03-12,329
+Apple iPad 11-inch A16 (Pink),2025-03-14,349
+Apple iPad 11-inch A16 (Pink),2025-03-14,329
+Apple iPad 11-inch A16 (Pink),2025-04-20,339
+Apple iPad 11-inch A16 (Pink),2025-04-20,329
+Apple iPad 11-inch A16 (Pink),2025-04-21,329
+Apple iPad 11-inch A16 (Pink),2025-04-22,329
+Apple iPad 11-inch A16 (Pink),2025-04-24,328.86
+Apple iPad 11-inch A16 (Pink),2025-04-24,328
+Apple iPad 11-inch A16 (Pink),2025-04-26,299
+Apple iPad 11-inch A16 (Pink),2025-05-01,299
+Apple iPad 11-inch A16 (Pink),2025-05-03,288.39
+Apple iPad 11-inch A16 (Pink),2025-05-04,288.39
+Apple iPad 11-inch A16 (Pink),2025-05-04,299
+Apple iPad 11-inch A16 (Pink),2025-05-06,288.39
+Apple iPad 11-inch A16 (Pink),2025-05-07,288.39
+Apple iPad 11-inch A16 (Pink),2025-05-08,299
+Apple iPad 11-inch A16 (Pink),2025-05-09,277.78
+Apple iPad 11-inch A16 (Pink),2025-05-09,267.17
+Apple iPad 11-inch A16 (Pink),2025-05-13,299
+Apple iPad 11-inch A16 (Pink),2025-05-14,299
+Apple iPad 11-inch A16 (Pink),2025-05-19,309
+Apple iPad 11-inch A16 (Pink),2025-05-19,299
+Apple iPad 11-inch A16 (Pink),2025-05-27,321
+Apple iPad 11-inch A16 (Pink),2025-05-29,319.99
+Apple iPad 11-inch A16 (Pink),2025-05-31,299
+Apple iPad 11-inch A16 (Pink),2025-06-09,299
+Apple iPad 11-inch A16 (Pink),2025-06-16,299.99
+Apple iPad 11-inch A16 (Pink),2025-06-20,299
+Apple iPad 11-inch A16 (Pink),2025-06-22,321
+Apple iPad 11-inch A16 (Pink),2025-06-23,299
+Apple iPad 11-inch A16 (Pink),2025-06-27,319
+Apple iPad 11-inch A16 (Pink),2025-06-28,299
+Apple iPad 11-inch A16 (Pink),2025-07-01,299
+Apple iPad 11-inch A16 (Pink),2025-07-08,279
+Apple iPad 11-inch A16 (Pink),2025-07-12,279
+Apple iPad 11-inch A16 (Pink),2025-07-12,279
+Apple iPad 11-inch A16 (Pink),2025-07-16,299
+Apple iPad 11-inch A16 (Pink),2025-07-16,299.99
+Apple iPad 11-inch A16 (Pink),2025-07-17,299
+Apple iPad 11-inch A16 (Pink),2025-07-21,319
+Apple iPad 11-inch A16 (Pink),2025-07-23,299
+Apple iPad 11-inch A16 (Pink),2025-07-25,299
+Apple iPad 11-inch A16 (Pink),2025-09-02,319
+Apple iPad 11-inch A16 (Pink),2025-09-03,299
+Apple iPad 11-inch A16 (Pink),2025-09-28,319
+Apple iPad 11-inch A16 (Pink),2025-10-05,299
+Apple iPad 11-inch A16 (Pink),2025-10-07,279
+Apple iPad 11-inch A16 (Pink),2025-10-13,319
+Apple iPad 11-inch A16 (Pink),2025-10-16,299
+Apple iPad 11-inch A16 (Pink),2025-10-24,298
+Apple iPad 11-inch A16 (Pink),2025-10-26,299
+Apple iPad 11-inch A16 (Pink),2025-11-10,299
+Apple iPad 11-inch A16 (Pink),2025-11-11,324.99
+Apple iPad 11-inch A16 (Pink),2025-11-11,324.99
+Apple iPad 11-inch A16 (Pink),2025-11-13,319.99
+Apple iPad 11-inch A16 (Pink),2025-11-15,299
+Apple iPad 11-inch A16 (Pink),2025-11-16,299
+Apple iPad 11-inch A16 (Pink),2025-11-18,299
+Apple iPad 11-inch A16 (Pink),2025-11-18,299
+Apple iPad 11-inch A16 (Pink),2025-11-20,299
+Apple iPad 11-inch A16 (Pink),2025-11-21,279
+Apple iPad 11-inch A16 (Pink),2025-11-22,279
+Apple iPad 11-inch A16 (Pink),2025-11-22,279
+Apple iPad 11-inch A16 (Pink),2025-11-23,279
+Apple iPad 11-inch A16 (Pink),2025-11-25,274
+Apple iPad 11-inch A16 (Pink),2025-11-27,274
+Apple iPad 11-inch A16 (Pink),2025-11-28,274
+Apple iPad 11-inch A16 (Pink),2025-11-28,344
+Apple iPad 11-inch A16 (Pink),2025-11-29,309
+Apple iPad 11-inch A16 (Pink),2025-12-01,274.99
+Apple iPad 11-inch A16 (Pink),2025-12-02,309
+Apple iPad 11-inch A16 (Pink),2025-12-04,339
+Apple iPad 11-inch A16 (Pink),2025-12-05,339
+Apple iPad 11-inch A16 (Pink),2025-12-08,360
+Apple iPad 11-inch A16 (Pink),2025-12-10,474.03
+Apple iPad 11-inch A16 (Pink),2025-12-14,299
+Apple iPad 11-inch A16 (Pink),2025-12-16,369
+Apple iPad 11-inch A16 (Pink),2025-12-22,369
+Apple iPad 11-inch A16 (Pink),2025-12-24,299
+Apple iPad 11-inch A16 (Pink),2025-12-26,299
+Apple iPad 11-inch A16 (Pink),2025-12-28,299
+Apple iPad 11-inch A16 (Pink),2025-12-31,299
+Apple iPad 11-inch A16 (Pink),2026-01-01,299
+Apple iPad 11-inch A16 (Pink),2026-01-03,299
+Apple iPad 11-inch A16 (Pink),2026-01-05,299
+Apple iPad 11-inch A16 (Pink),2026-01-08,299
+Apple iPad 11-inch A16 (Pink),2026-01-11,321
+Apple iPad 11-inch A16 (Pink),2026-01-12,349
+Apple iPad 11-inch A16 (Pink),2026-01-13,349
+Apple iPad 11-inch A16 (Pink),2026-01-16,349
+Apple iPad 11-inch A16 (Pink),2026-01-19,349
+Apple iPad 11-inch A16 (Pink),2026-01-22,349
+Apple iPad 11-inch A16 (Pink),2026-01-25,349
+Apple iPad 11-inch A16 (Pink),2026-01-27,321
+Apple iPad 11-inch A16 (Pink),2026-01-31,349
+Apple iPad 11-inch A16 (Pink),2026-02-03,299.99
+Apple iPad 11-inch A16 (Pink),2026-02-04,299.99
+Apple iPad 11-inch A16 (Pink),2026-02-07,299.99
+Apple iPad 11-inch A16 (Pink),2026-02-11,299.99
+Apple iPad 11-inch A16 (Pink),2026-02-15,299
+Apple iPad 11-inch A16 (Pink),2026-02-19,329
+Apple iPad 11-inch A16 (Pink),2026-03-11,349
+Apple iPad 11-inch A16 (Pink),2026-03-14,299
+Apple iPad 11-inch A16 (Pink),2026-03-16,299
+Apple iPad 11-inch A16 (Pink),2026-03-20,299
+Apple iPad 11-inch A16 (Pink),2026-03-21,299
+Apple iPad 11-inch A16 (Pink),2026-03-25,299
+Apple iPad 11-inch A16 (Pink),2026-03-28,299
+Apple iPad 11-inch A16 (Pink),2026-03-31,299
+Apple iPad 11-inch A16 (Pink),2026-04-04,349
+Apple iPad 11-inch A16 (Pink),2026-04-16,299
+Apple iPad 11-inch A16 (Pink),2026-05-02,329
+Apple iPad 11-inch A16 (Pink),2026-05-12,319.99
+Apple iPad 11-inch A16 (Pink),2026-05-20,299
+Apple iPad 11-inch A16 (Pink),2026-05-29,299
+Apple iPad 11-inch A16 (Pink),2026-06-16,299
+Apple iPad 11-inch A16 (Pink),2026-06-21,299
+Apple iPad 11-inch A16 (Pink),2026-06-23,299
+Apple iPad 11-inch A16 (Pink),2026-06-26,299.99
+Apple iPad 11-inch A16 (Pink),2026-07-04,499
+Apple iPad 11-inch A16 (Pink),2026-07-12,439.99
+Apple iPad 11-inch A16 (Pink),2026-07-19,427.99
+Apple iPad 11-inch A16 (Pink),2026-07-21,399
+Apple iPad 11-inch A16 (Pink),2026-07-22,399
+Apple iPad 11-inch A16 (Pink),2026-07-24,399
+Apple iPad 11-inch A16 (Pink),2026-07-26,399
+Apple iPad 11-inch A16 (Pink),2026-07-27,426.99
+Apple iPad 11-inch A16 (Pink),2026-07-28,426.99
+Apple iPad 11-inch A16 (Pink),2026-07-29,426.99
+Apple iPad 11-inch A16 (Pink),2026-07-30,426.99
+Apple iPad 11-inch A16 (Pink),2026-07-31,426.99
+Apple iPad 11-inch A16 (Pink),2026-08-02,426.99
+Apple iPad 11-inch A16 (Pink),2026-08-03,426.99
+Apple iPad 11-inch A16 (Pink),2026-08-05,426.99
+Apple iPad 11-inch A16 (Pink),2026-08-06,399
+Apple iPad 11-inch A16 (Pink),2026-08-09,399
+Apple iPad 11-inch A16 (Pink),2026-08-11,399.99
+Apple iPad 11-inch A16 (Pink),2026-08-14,399.99
+Apple iPad 11-inch A16 (Pink),2026-08-16,399.99
+Apple iPad 11-inch A16 (Pink),2026-08-19,399
+Apple iPad 11-inch A16 (Pink),2026-08-23,399
+Apple iPad 11-inch A16 (Pink),2026-08-27,399.99
+Apple iPad 11-inch A16 (Pink),2026-09-01,399
+Apple iPad 11-inch A16 (Pink),2026-09-04,399
+Apple iPad 11-inch A16 (Pink),2026-09-06,399
+Apple iPad 11-inch A16 (Pink),2026-09-06,399
+Apple iPad 11-inch A16 (Pink),2026-09-07,399
+Apple iPad 11-inch A16 (Pink),2026-09-09,427
+Apple iPad 11-inch A16 (Pink),2026-09-11,427
+Apple iPad 11-inch A16 (Pink),2026-09-13,399.99
+Apple iPad 11-inch A16 (Pink),2026-09-19,399.99
+Apple iPad 11-inch A16 (Pink),2026-09-21,399
+Apple iPad 11-inch A16 (Pink),2026-09-25,399
+Apple iPad 11-inch A16 (Pink),2026-09-28,427

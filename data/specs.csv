@@ -1,0 +1,9 @@
+laptop_id,asin,amazon_url,brand,device_type,os,screen_size_in,display_type,touchscreen,cpu_brand,cpu_model,ram_gb,ram_estimated,ram_type,storage_gb,storage_type,wifi_standard,touch_id,copilot_plus_pc,color
+Dell XPS 13,B0FKSV6KQH,https://www.amazon.com/dp/B0FKSV6KQH,Dell,laptop,Windows 11 Pro,13.4,2.5K,TRUE,Intel,Core 5,8,TRUE,,512,SSD,,FALSE,FALSE,
+MacBook Air M5,B0GR1J6T45,https://www.amazon.com/dp/B0GR1J6T45,Apple,laptop,macOS,13.6,Liquid Retina,FALSE,Apple,M5,16,FALSE,unified,512,SSD,7,TRUE,FALSE,Starlight
+MacBook Pro M5,B0GR697RPC,https://www.amazon.com/dp/B0GR697RPC,Apple,laptop,macOS,14.2,,FALSE,Apple,M5,32,FALSE,unified,1024,SSD,7,FALSE,FALSE,Space Black
+MacBook Neo,B0GRCFLMR2,https://www.amazon.com/dp/B0GRCFLMR2,Apple,laptop,macOS,13,Liquid Retina,FALSE,Apple,A18 Pro,8,FALSE,unified,256,SSD,,FALSE,FALSE,Indigo
+Lenovo Yoga 7i,B0GHWSWMHQ,https://www.amazon.com/dp/B0GHWSWMHQ,Lenovo,2_in_1,Windows 11 Pro,16,2K IPS,TRUE,Intel,Core Ultra 5,16,FALSE,DDR5,512,SSD,,FALSE,TRUE,
+ASUS Chromebook Plus CX34,B0FGZMNDL7,https://www.amazon.com/dp/B0FGZMNDL7,ASUS,chromebook,ChromeOS,14,FHD,TRUE,Intel,Core i3-1215U,8,FALSE,,128,,,FALSE,FALSE,
+Acer Aspire Go 16,B0FRNM3RMQ,https://www.amazon.com/dp/B0FRNM3RMQ,Acer,laptop,Windows 11 Pro,16,,TRUE,Intel,Core 7,16,FALSE,,1024,SSD,,FALSE,FALSE,
+Apple iPad 11-inch A16 (Pink),B0DZ7871B8,https://www.amazon.com/dp/B0DZ7871B8,Apple,tablet,iPadOS,11,Liquid Retina,TRUE,Apple,A16,6,TRUE,,128,,6,TRUE,FALSE,Pink
