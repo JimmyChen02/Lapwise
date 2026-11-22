@@ -9,7 +9,7 @@ The interface follows the [Lapwise Figma mockup](https://www.figma.com/design/gA
 Install **Git**, **Python 3.12 or newer**, and **Node.js 22 or newer** (including npm). Open a terminal in any folder where you want to keep the project, then run:
 
 ```bash
-git clone https://github.com/JimmyChen02/Lapwise.git
+git clone --branch main https://github.com/JimmyChen02/Lapwise.git
 cd Lapwise
 bash start.sh
 ```
